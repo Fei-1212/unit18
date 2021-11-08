@@ -1,0 +1,83 @@
+@media only screen and (max-width:600){
+    
+}
+
+head{
+    background-color: #AD98B5;
+}
+
+body{
+    background-color: #AD98B5;
+}
+footer{
+    background-color: #AD98B5;
+}
+
+.myWork{
+    font-size:35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #4A3552;
+}
+
+.viewAll{
+    font-size:18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #ABFFB8;
+    text-decoration: underline;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: auto auto;
+    background-color: white;
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(39, 0, 37, 0.8);
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  .content{
+      font-size: 18px;
+      height: 50px;
+      width: 300px;
+      text-align: center;
+  }
+
+  .sectionHead {
+    border-bottom: 5px solid #ABFFB8;
+    padding-top: 4%;
+  }
+
+
+  .grid-container-skill{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .grid-item-skill {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(39, 0, 37, 0.8);
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    height: 300px;
+  }
+
+  .img{
+      padding-bottom: 5%;
+
+  }
